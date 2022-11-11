@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="auto" height="2304" xmlns="http://www.w3.org/2000/svg" version="2.0">
+    
+	<rect x="25" y="25" width="375" height="190" fill="#d7fccd" stroke-width="4" stroke="#0c761a"/>
+	<text x="40" y="50" font-weight="bold">Héctor Lavandeira Fernández</text>
+	<text x="40" y="70">Fecha nacimiento: 2001-12-25</text>
+	<text x="40" y="90">Lugar nacimiento: Ponferrada, León</text>"
+	<text x="40" y="110">Coordenadas nacimiento: -6.537778,
+	42.534167, 544</text>
+	<text x="40" y="130">Lugar residencia: Oviedo, Asturias</text>"
+	<text x="40" y="150">Coordenadas residencia: -5.849167,
+	43.36, 232</text>
+	<text x="40" y="168.75">Comentario: Comentario de Héctor Lavandeira</text>
+	<text x="40" y="187.5">Foto: multimedia/foto/1.jpg</text>
+	<text x="40" y="206.25">Vídeo: multimedia/video/1.mp4</text>
+	<rect x="490" y="25" width="375" height="190" fill="#d7bef3" stroke-width="4" stroke="#541896"/>
+	<text x="505" y="50" font-weight="bold">Ana Fernández Ostio</text>
+	<text x="505" y="70">Fecha nacimiento: 2001-12-30</text>
+	<text x="505" y="90">Lugar nacimiento: Gijón, Asturias</text>"
+	<text x="505" y="110">Coordenadas nacimiento: -5.633889,
+	43.533889, 3</text>
+	<text x="505" y="130">Lugar residencia: Mieres, Asturias</text>"
+	<text x="505" y="150">Coordenadas residencia: -5.781667,
+	43.248333, 386</text>
+	<text x="505" y="168.75">Comentario: Comentario de Ana Fernández</text>
+	<text x="505" y="187.5">Foto: : multimedia/foto/2.jpg</text>
+	<rect x="955" y="25" width="375" height="190" fill="#c3f4f1" stroke-width="4" stroke="#22bfdc"/>
+	<text x="970" y="50" font-weight="bold">Iker Jiménez Herrero</text>
+	<text x="970" y="70">Fecha nacimiento: 1973-01-10</text>
+	<text x="970" y="90">Lugar nacimiento: Vitoria-Gasteiz, Álava</text>"
+	<text x="970" y="110">Coordenadas nacimiento: -2.672778,
+	42.8525, 525</text>
+	<text x="970" y="130">Lugar residencia: Madrid, Madrid</text>"
+	<text x="970" y="150">Coordenadas residencia: -3.688889,
+	40.424167, 657</text>
+	<text x="970" y="168.75">Comentario: Comentario de Iker Jiménez</text>
+	<text x="970" y="187.5">Foto: : multimedia/foto/3.jpg</text>
+	<text x="970" y="206.25">Vídeo: : multimedia/video/3.mp4</text>
+	<rect x="955" y="265" width="375" height="190" fill="#c3f4f1" stroke-width="4" stroke="#22bfdc"/>
+	<text x="970" y="290" font-weight="bold">Fernando González Sierra</text>
+	<text x="970" y="310">Fecha nacimiento: 2001-04-12</text>
+	<text x="970" y="330">Lugar nacimiento: Ourense, Ourense</text>"
+	<text x="970" y="350">Coordenadas nacimiento: -7.859167,
+	42.325833, 132</text>
+	<text x="970" y="370">Lugar residencia: Cádiz, Cádiz</text>"
+	<text x="970" y="390">Coordenadas residencia: -6.211111,
+	36.520556, 11</text>
+	<text x="970" y="408.75">Comentario: Comentario de Fernando González</text>
+	<text x="970" y="427.5">Foto: : multimedia/foto/4.jpg</text>
+	<rect x="955" y="505" width="375" height="190" fill="#c3f4f1" stroke-width="4" stroke="#22bfdc"/>
+	<text x="970" y="530" font-weight="bold">Miriam González Alonso</text>
+	<text x="970" y="550">Fecha nacimiento: 2001-05-23</text>
+	<text x="970" y="570">Lugar nacimiento: Ponferrada, León</text>"
+	<text x="970" y="590">Coordenadas nacimiento: -6.603889,
+	42.5475, 544</text>
+	<text x="970" y="610">Lugar residencia: Villablino, León</text>"
+	<text x="970" y="630">Coordenadas residencia: -6.315278,
+	42.936944, 1021</text>
+	<text x="970" y="648.75">Comentario: Comentario de Miriam González</text>
+	<text x="970" y="667.5">Foto: : multimedia/foto/5.jpg</text>
+	<text x="970" y="686.25">Vídeo: : multimedia/video/5.mp4</text>
+	<polyline points="865,120.0 955,120.0 910.0,120.0 910.0,600.0 955,600.0" stroke="black" stroke-width="2" fill="none"/>
+	<line x1="910.0" y1="360.0" x2="955" y2="360.0" stroke="black" stroke-width="2" />
+	<polyline points="400,120.0 490,120.0 445.0,120.0 445.0,1600.0 490,1600.0" stroke="black" stroke-width="2" fill="none"/>
+	<line x1="445.0" y1="860.0" x2="490" y2="860.0" stroke="black" stroke-width="2" />
+	<rect x="490" y="765" width="375" height="190" fill="#d7bef3" stroke-width="4" stroke="#541896"/>
+	<text x="505" y="790" font-weight="bold">Sonia Fernández Coto</text>
+	<text x="505" y="810">Fecha nacimiento: 2001-07-18</text>
+	<text x="505" y="830">Lugar nacimiento: Oviedo, Asturias</text>"
+	<text x="505" y="850">Coordenadas nacimiento: -5.850833,
+	43.364444, 232</text>
+	<text x="505" y="870">Lugar residencia: Capri, Italia</text>"
+	<text x="505" y="890">Coordenadas residencia: 14.240833,
+	40.555278, 142</text>
+	<text x="505" y="908.75">Comentario: Comentario de Sonia Fernández</text>
+	<text x="505" y="927.5">Foto: : multimedia/foto/6.jpg</text>
+	<rect x="955" y="765" width="375" height="190" fill="#c3f4f1" stroke-width="4" stroke="#22bfdc"/>
+	<text x="970" y="790" font-weight="bold">Miguel Menéndez Rodríguez</text>
+	<text x="970" y="810">Fecha nacimiento: 2000-08-29</text>
+	<text x="970" y="830">Lugar nacimiento: Torremolinos, Málaga</text>"
+	<text x="970" y="850">Coordenadas nacimiento: -4.515833,
+	36.626389, 49</text>
+	<text x="970" y="870">Lugar residencia: Benalmádena, Málaga</text>"
+	<text x="970" y="890">Coordenadas residencia: -4.516944,
+	36.598333, 280</text>
+	<text x="970" y="908.75">Comentario: Comentario de Miguel Menéndez</text>
+	<text x="970" y="927.5">Foto: : multimedia/foto/7.jpg</text>
+	<text x="970" y="946.25">Vídeo: : multimedia/video/7.mp4</text>
+	<rect x="955" y="1005" width="375" height="190" fill="#c3f4f1" stroke-width="4" stroke="#22bfdc"/>
+	<text x="970" y="1030" font-weight="bold">Sito Martínez Rodríguez</text>
+	<text x="970" y="1050">Fecha nacimiento: 2001-10-28</text>
+	<text x="970" y="1070">Lugar nacimiento: Oviedo, Asturias</text>"
+	<text x="970" y="1090">Coordenadas nacimiento: -5.842222,
+	43.3625, 232</text>
+	<text x="970" y="1110">Lugar residencia: Coímbra, Portugal</text>"
+	<text x="970" y="1130">Coordenadas residencia: -8.381667,
+	40.203056, 43</text>
+	<text x="970" y="1148.75">Comentario: Comentario de Sito Martínez</text>
+	<text x="970" y="1167.5">Foto: : multimedia/foto/8.jpg</text>
+	<rect x="955" y="1245" width="375" height="190" fill="#c3f4f1" stroke-width="4" stroke="#22bfdc"/>
+	<text x="970" y="1270" font-weight="bold">Nuria Inchaurrandieta Fernández</text>
+	<text x="970" y="1290">Fecha nacimiento: 2001-05-04</text>
+	<text x="970" y="1310">Lugar nacimiento: Burdeos, Francia</text>"
+	<text x="970" y="1330">Coordenadas nacimiento: -0.578889,
+	44.8375, 6</text>
+	<text x="970" y="1350">Lugar residencia: Andorra la Vella, Andorra</text>"
+	<text x="970" y="1370">Coordenadas residencia: -1.521667,
+	42.506111, 1409</text>
+	<text x="970" y="1388.75">Comentario: Comentario de Nuria Inchaurrandieta</text>
+	<text x="970" y="1407.5">Foto: : multimedia/foto/9.jpg</text>
+	<polyline points="865,860.0 955,860.0 910.0,860.0 910.0,1340.0 955,1340.0" stroke="black" stroke-width="2" fill="none"/>
+	<line x1="910.0" y1="1100.0" x2="955" y2="1100.0" stroke="black" stroke-width="2" />
+	<polyline points="400,120.0 490,120.0 445.0,120.0 445.0,1600.0 490,1600.0" stroke="black" stroke-width="2" fill="none"/>
+	<line x1="445.0" y1="860.0" x2="490" y2="860.0" stroke="black" stroke-width="2" />
+	<rect x="490" y="1505" width="375" height="190" fill="#d7bef3" stroke-width="4" stroke="#541896"/>
+	<text x="505" y="1530" font-weight="bold">Alicia Fernández Pushkina</text>
+	<text x="505" y="1550">Fecha nacimiento: 2001-02-15</text>
+	<text x="505" y="1570">Lugar nacimiento: Transilvania, Rumanía</text>"
+	<text x="505" y="1590">Coordenadas nacimiento: 25.2224,
+	46.18406, 400</text>
+	<text x="505" y="1610">Lugar residencia: Minsk, Bielorrusia</text>"
+	<text x="505" y="1630">Coordenadas residencia: 27.558889,
+	53.900556, 281</text>
+	<text x="505" y="1648.75">Comentario: Comentario de Alicia Fernández</text>
+	<text x="505" y="1667.5">Foto: : multimedia/foto/10.jpg</text>
+	<rect x="955" y="1505" width="375" height="190" fill="#c3f4f1" stroke-width="4" stroke="#22bfdc"/>
+	<text x="970" y="1530" font-weight="bold">Lara Fernández Méndez</text>
+	<text x="970" y="1550">Fecha nacimiento: 2001-06-13</text>
+	<text x="970" y="1570">Lugar nacimiento: Barcelona, Barcelona</text>"
+	<text x="970" y="1590">Coordenadas nacimiento: 2.168333,
+	41.387222, 12</text>
+	<text x="970" y="1610">Lugar residencia: Soria, Soria</text>"
+	<text x="970" y="1630">Coordenadas residencia: -2.478889,
+	41.766389, 1065</text>
+	<text x="970" y="1648.75">Comentario: Comentario de Lara Fernández</text>
+	<text x="970" y="1667.5">Foto: : multimedia/foto/11.jpg</text>
+	<text x="970" y="1686.25">Vídeo: : multimedia/video/11.mp4</text>
+	<rect x="955" y="1745" width="375" height="190" fill="#c3f4f1" stroke-width="4" stroke="#22bfdc"/>
+	<text x="970" y="1770" font-weight="bold">Laura Cordero Castrillo</text>
+	<text x="970" y="1790">Fecha nacimiento: 2001-05-02</text>
+	<text x="970" y="1810">Lugar nacimiento: Plasencia, Cáceres</text>"
+	<text x="970" y="1830">Coordenadas nacimiento: -6.070278,
+	40.038611, 415</text>
+	<text x="970" y="1850">Lugar residencia: Sarajevo, Bosnia y Herzegovina</text>"
+	<text x="970" y="1870">Coordenadas residencia: 18.413056,
+	43.856111, 541</text>
+	<text x="970" y="1888.75">Comentario: Comentario de Laura Cordero</text>
+	<text x="970" y="1907.5">Foto: : multimedia/foto/12.jpg</text>
+	<rect x="955" y="1985" width="375" height="190" fill="#c3f4f1" stroke-width="4" stroke="#22bfdc"/>
+	<text x="970" y="2010" font-weight="bold">Sofía Yiyu Qiu</text>
+	<text x="970" y="2030">Fecha nacimiento: 2000-03-24</text>
+	<text x="970" y="2050">Lugar nacimiento: Bilbao, Vizcaya</text>"
+	<text x="970" y="2070">Coordenadas nacimiento: -2.934722,
+	43.262778, 19</text>
+	<text x="970" y="2090">Lugar residencia: Silkeborg, Dinamarca</text>"
+	<text x="970" y="2110">Coordenadas residencia: 9.554722,
+	56.176111, 31</text>
+	<text x="970" y="2128.75">Comentario: Comentario de Sofía Yiyu Qiu</text>
+	<text x="970" y="2147.5">Foto: : multimedia/foto/13.jpg</text>
+	<polyline points="865,1600.0 955,1600.0 910.0,1600.0 910.0,2080.0 955,2080.0" stroke="black" stroke-width="2" fill="none"/>
+	<line x1="910.0" y1="1840.0" x2="955" y2="1840.0" stroke="black" stroke-width="2" />
+	<polyline points="400,120.0 490,120.0 445.0,120.0 445.0,1600.0 490,1600.0" stroke="black" stroke-width="2" fill="none"/>
+	<line x1="445.0" y1="860.0" x2="490" y2="860.0" stroke="black" stroke-width="2" />
+</svg>
