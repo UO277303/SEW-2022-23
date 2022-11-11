@@ -1,0 +1,189 @@
+/**********
+Héctor Lavandeira Fernández - UO277303
+Descripción del estilo de la página
+**********/
+
+/*Especificidad: (0,0,1)*/
+header {
+    background-color: #3b8739;
+    color: #212121;
+}
+
+/*Especificidad: (0,0,1)*/
+nav {
+    background-color: #333333;
+    color: #b4cdb1;
+    padding: 1em;
+}
+
+/*Especificidad: (0,0,1)*/
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    background-color: #d7fccd;
+}
+
+/*Especificidad: (0,0,1)*/
+main {
+    margin-left: 1em;
+    margin-right: 0.75em;
+    padding-left: 0.7em;
+    padding-bottom: 0.7em;
+}
+
+/*Especificidad: (0,0,1)*/
+footer {
+    background-color: #333333;
+    color: #dde6dc;
+    padding: 0.7em 0.7em 4em 0.7em;
+}
+
+/*Especificidad: (0,0,1)*/
+li {
+    padding-bottom: 0.2em;
+}
+
+/*Especificidad: (0,0,1)*/
+table {
+    border-collapse: collapse;
+}
+
+/*Especificidad: (0,0,1)*/
+th {
+    padding: 0.6em;
+    text-align: center;
+    background-color: #2C5E2C;
+    color: white;
+}
+
+/*Especificidad: (0,0,1)*/
+td {
+    padding: 0.5em;
+}
+
+/*Especificidad: (0,0,1)*/
+th, td {
+    border: 0.1em solid black;
+}
+
+/*Especificidad: (0,0,1)*/
+form {
+    margin-bottom: 1em;
+}
+
+/*Especificidad: (0,0,1)*/
+fieldset {
+    width: 50%;
+    margin-top: 1.2em;
+}
+
+/*Especificidad: (0,0,1)*/
+textarea {
+    width: 75%;
+    height: 9em;
+    resize: none;
+}
+
+/*Especificidad: (0,0,1)*/
+video, audio {
+    max-width: 80%;
+    min-width: 55%;
+}
+
+/*Especificidad: (0,0,1)*/
+aside {
+    padding-bottom: 1.4em;
+    padding-top: 1.4em;
+}
+
+/*Especificidad: (0,0,2)*/
+form > input {
+    width: 35%;
+    background-color: white;
+    color: black;
+    border: 0.1em solid black;
+    border-radius: 0.3em;
+    padding: 0.5em;
+    font-size: 0.85em;
+}
+
+/*Especificidad: (0,0,2)*/
+section > input {
+    padding: 0.7em 1em;
+    font-size: 0.9em;
+    margin-bottom: 1.5em;
+}
+
+/*Especificidad: (0,0,2)*/
+header > h1 {
+    font-size: 3.2em;
+    padding-left: 0.2em;
+}
+
+/*Especificidad: (0,0,2)*/
+header > img {
+    padding: 1em;
+}
+
+/*Especificidad: (0,0,2)*/
+nav a {
+    color: #b4cdb1;
+    background-color: #333333;
+    padding-right: 1em;
+}
+
+/*Especificidad: (0,0,2)*/
+main > p {
+    padding-bottom: 0.3em;
+}
+
+/*Especificidad: (0,0,2)*/
+section > h1 {
+    font-size: 2em;
+}
+
+/*Especificidad: (0,0,2)*/
+section > p {
+    text-align: justify;
+    font-size: 1em;
+}
+
+/*Especificidad: (0,0,2)*/
+footer > p {
+    font-size: 0.9em;
+    margin-left: 1.5em;
+}
+
+/*Especificidad: (0,0,2)*/
+li > ul {
+    padding-top: 0.2em;
+}
+
+/*Especificidad: (0,1,1)*/
+tr:nth-child(even){
+    background-color: #eaf5e9;
+    color: black;
+}
+
+/*Especificidad: (0,1,2)*/
+nav > a:hover {
+    color: #78E278;
+    background-color: #333333;
+}
+
+/*Especificidad: (0,1,2)*/
+aside > p:nth-child(2) {
+    padding-bottom: 1.2em;
+}
+
+/*Especificidad: (0,1,3)*/
+main > p > a:link {
+    color: #004985;
+    background-color: #d7fccd;
+}
+
+/*Especificidad: (0,1,3)*/
+main > p > a:visited {
+    color: #750075;
+    background-color: #d7fccd;
+}

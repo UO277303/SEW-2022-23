@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Héctor Lavandeira Fernández" />
+    <meta name="description" content="Sitio web sobre Node.js" />
+    <meta name="keywords" content="Node, JavaScript, Ryan Dahl, Joyent, multiplataforma" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Node.js</title>
+    
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+</head>
+
+<body>
+    <header>
+        <img src="multimedia/icono.png" alt="Icono de Node"/>
+        <h1>NODE.JS </h1>
+    </header>
+
+    <nav>
+        <a accesskey="I" tabindex=0 href="index.html">Introducción e historia</a>
+        <a accesskey="V" tabindex=1 href="versiones.html">Versiones</a>
+        <a accesskey="N" tabindex=2 href="ventajas.html">Ventajas y desventajas</a>
+        <a accesskey="O" tabindex=3 href="formulario.html">Formulario de satisfacción</a>
+    </nav>
+
+    <main>
+        <h1>Entorno Node.js</h1>
+        <section>
+            <h2>Introducción</h2>
+            <p>Node.js es un entorno en tiempo de ejecución multiplataforma de código abierto, basado en el lenguaje de 
+                programación JavaScript. El enfoque principal a la hora de su creación fue facilitar la creación de 
+                programas de red altamente escalables.</p>
+
+            <p>Se trata de un lenguaje diseñado para ejecutar JavaScript desde el lado del servidor. Cuenta con un
+                gestor de librerías llamado Node Pacakge Manager (npm). Muchas de estas librerías son generadas 
+                por parte de la comunidad.</p>
+            
+            <p>Uno de sus objetivos principales es conseguir una alta escalabilidad. Esto lo consigue gracias a que es 
+                capaz de manejar un gran número de conexiones de forma simultánea, con un alto rendimiento. Para evitar 
+                las excepciones, se transfieren los errores a la llamada como una llamada de parámetros. De esta forma, 
+                si alguna excepción 'intenta' llegar al núcleo, puede utilizarse alguna herramienta para supervisarla, 
+                consiguiendo así que la instancia de Node.js no termine.</p>
+            
+            <p>Node.js funciona con un modelo de evaluación de un solo hilo de ejecución, medainte entradas y salidas 
+                asíncronas que pueden ejecutarse de forma concurrente sin incurrir en costos asociados al cambio de 
+                contexto.</p>
+        
+            <h2>Historia</h2>
+            <p>Fue creado en 2009 por Ryan Dahl, el cual en ese momento trabajaba en la 
+                empresa Joyent. Esta se convirtió en la propietaria de la marca Node.js, y desde su 
+                creación se encargó de patrocinarla y difundirla. Ya que esta empresa pertenecía al sector
+                privado, los avances de Node durante los primeros años fueron muy lentos.</p>
+
+            <p>Durante los cinco primeros años, fueron saliendo a la luz varias versiones, 
+                muy lentamente, pues nunca se llegó a una versión estable. En mayo de 2015 se creó la
+                Node.js Foundation. Uno de sus objetivos fue normalizar y unificar las versiones
+                0.12.X y 3.X.X en una sola tecnología. Finalmente, en septiembre de 2015 
+                salió a la luz Node 4.0.0, como resultado de un proyecto de convergencia.</p>
+        </section>
+
+        <p>Puedes leer más sobre la historia de Node.js en el siguiente <a href="https://desarrolloweb.com/articulos/el-futuro-de-nodejs4.html">enlace</a>.</p>
+    </main>
+
+    <aside>
+        <picture>
+            <img src="multimedia/ryan.jpg" alt="Foto de Ryan Dahl"/>
+        </picture>
+        <p>Ryan Dahl, creador de Node.js.</p>
+
+        <img src="multimedia/nodeHist.png" alt="Características de Node.js">
+    </aside>
+
+    <footer>
+        <p>Práctica HTML y CSS - Software y Estándares para la Web</p>
+        <p>Héctor Lavandeira Fernández - UO277303</p>
+        <p>Universidad de Oviedo - Curso 2022/23</p>
+    </footer>
+</body>
+</html>

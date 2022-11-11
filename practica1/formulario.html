@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Héctor Lavandeira Fernández" />
+    <meta name="description" content="Formulario sobre Node.js" />
+    <meta name="keywords" content="Node, formulario, satisfacción" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Node.js - Formulario</title>
+    
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+</head>
+
+<body>
+    <header>
+        <img src="multimedia/icono.png" alt="Icono de Node"/>
+        <h1>NODE.JS </h1>
+    </header>
+
+    <nav>
+        <a accesskey="I" tabindex=0 href="index.html">Introducción e historia</a>
+        <a accesskey="V" tabindex=1 href="versiones.html">Versiones</a>
+        <a accesskey="N" tabindex=2 href="ventajas.html">Ventajas y desventajas</a>
+        <a accesskey="O" tabindex=3 href="formulario.html">Formulario de satisfacción</a>
+    </nav>
+
+    <main>
+        <h1>Framework Node.js</h1>
+        <section>
+            <h2>Entorno de satisfacción</h2>
+
+            <form>
+                <p><label for="nombre">Nombre completo: </label></p>
+                <input id="nombre">
+        
+                <p><label for="edad">Introduce tu edad: </label></p>
+                <input id="edad" type=number min=5 step=1 max=99 name=edad>
+            
+                <p><label for="correo">Correo electrónico: </label></p>
+                <input id="correo" type="email">
+         
+                <p><label for="telefono">Número de teléfono: </label></p>
+                <input id="telefono" type="tel">
+        
+                <fieldset>
+                    <legend>¿Has utilizado alguna vez Node.js?</legend>
+                    <p><label for="r1"> <input type=radio name=used id="r1"> Sí</label></p>
+                    <p><label for="r2"> <input type=radio name=used id="r2"> No</label></p>
+                </fieldset>
+        
+                <fieldset>
+                    <legend>Si has usado Node.js, ¿cuáles crees que son sus ventajas?</legend>
+                    <p><label for="cb1"> <input type=checkbox id="cb1"> Facilidad</label></p>
+                    <p><label for="cb2"> <input type=checkbox id="cb2"> Escalabilidad</label></p>
+                    <p><label for="cb3"> <input type=checkbox id="cb3"> Librerías</label></p>
+                    <p><label for="cb4"> <input type=checkbox id="cb4"> Rendimiento</label></p>
+                    <p><label for="cb5"> <input type=checkbox id="cb5"> Open source</label></p>
+                </fieldset>
+        
+                <p><label for="opinion">Déjanos tu opinión sobre Node.js: </label></p>
+                <textarea id="opinion"></textarea>
+            </form>
+
+            <input type="submit" value="Enviar respuestas" />
+        </section>
+    </main>
+
+    <aside>
+        <video src="multimedia/video.mp4" controls> </video>
+        <p>Vídeo sobre las novedades de Node.js en su versión 18</p>
+
+        <audio controls>
+            <source src="multimedia/audio.wav" type="audio/wav">
+        </audio>
+        <p>¿Qué es Node.js?</p>
+    </aside>
+    
+    <footer>
+        <p>Práctica HTML y CSS - Software y Estándares para la Web</p>
+        <p>Héctor Lavandeira Fernández - UO277303</p>
+        <p>Universidad de Oviedo - Curso 2022/23</p>
+    </footer>
+</body>
+</html>
