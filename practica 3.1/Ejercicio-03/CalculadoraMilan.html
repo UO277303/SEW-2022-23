@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Héctor Lavandeira Fernández" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Calculadora básica MILAN</title>
+
+    <script src="CalculadoraMilan.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="CalculadoraMilan.css" />
+</head>
+
+<body>
+
+    <h1>Calculadora básica</h1>
+
+    <form>
+        <label for="pantalla">nata by MILAN</label>
+        <input type="text" id="pantalla" readonly />
+
+        <!--Fila 1-->
+        <input type="button" value="C" onclick="calc.borrarCalculo()" />
+        <input type="button" value="CE" onclick="calc.borrar()" />
+        <input type="button" value="+/-" onclick="calc.cambiarSigno()" />
+        <input type="button" value="√" onclick="calc.raiz()" />
+        <input type="button" value="%" onclick="calc.porcentaje()" />
+        <!--Fila 2-->
+        <input type="button" value="7" onclick="calc.digitos('7')" />
+        <input type="button" value="8" onclick="calc.digitos('8')" />
+        <input type="button" value="9" onclick="calc.digitos('9')" />
+        <input type="button" value="x" onclick="calc.multiplicacion()" />
+        <input type="button" value="/" onclick="calc.division()" />
+        <!--Fila 3-->
+        <input type="button" value="4" onclick="calc.digitos('4')" />
+        <input type="button" value="5" onclick="calc.digitos('5')" />
+        <input type="button" value="6" onclick="calc.digitos('6')" />
+        <input type="button" value="-" onclick="calc.resta()" />
+        <input type="button" value="Mrc" onclick="calc.mrc()" />
+        <!--Fila 4-->
+        <input type="button" value="1" onclick="calc.digitos('1')" />
+        <input type="button" value="2" onclick="calc.digitos('2')" />
+        <input type="button" value="3" onclick="calc.digitos('3')" />
+        <input type="button" value="+" onclick="calc.suma()" />
+        <input type="button" value="M-" onclick="calc.mMenos()" />
+        <!--Fila 5-->
+        <input type="button" value="0" onclick="calc.digitos('0')" />
+        <input type="button" value="." onclick="calc.punto()" />
+        <input type="button" value="=" onclick="calc.igual()" />
+        <input type="button" value="M+" onclick="calc.mMas()" />
+    </form>
+
+</body>
+</html>

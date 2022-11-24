@@ -1,0 +1,90 @@
+/**********
+Héctor Lavandeira Fernández - UO277303
+Descripción del estilo y layout de la calculadora científica
+**********/
+
+/*Especificidad: (0,0,1)*/
+form {
+    display: grid;
+    grid-template-columns: repeat(5, 6em);
+
+    height: 30em;
+    column-gap: 0.4em;
+    row-gap: 0.4em;
+
+    margin-left: 1em;
+}
+
+/*Especificidad: (0,0,1)*/
+input {
+    background-color: rgb(216, 216, 216);
+    color: black;
+
+    font-size: 1.25em;
+    border: none;
+
+    height: 2em;
+}
+
+/*Especificidad: (0,0,1)*/
+h1 {
+    margin-left: 0.5em;
+}
+
+/*Especificidad: (0,0,1)*/
+label {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 1;
+
+    margin-left: 0.5em;
+}
+
+/*Especificidad: (0,1,1)*/
+input[type="text"] {
+    height: 2em;
+    padding: 0.5em;
+
+    background-color: white;
+    color: black;
+    font-size: 2em;
+
+    border: solid black 0.05em;
+
+    text-align: right;
+
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+/*Especificidad: (0,1,1)*/
+input[value="F-E"] {
+    grid-column-start: 3;
+    grid-column-end: 6;
+
+    width: 32.33%;
+}
+
+/*Especificidad: (0,1,1)*/
+input[value="DEG"], input[value="HYP"],
+input[value="F-E"], input[value="MC"],
+input[value="MR"], input[value="MS"],
+input[value="M+"], input[value="M-"],
+input[value="GRAD"], input[value="RAD"] {
+    background-color: rgb(212, 212, 212);
+    color: black;
+
+    font-size: 1em;
+}
+
+/*Especificidad: (0,1,1)*/
+input[value="1"], input[value="2"],
+input[value="3"], input[value="4"],
+input[value="5"], input[value="6"],
+input[value="7"], input[value="8"],
+input[value="9"], input[value="0"],
+input[value="."] {
+    background-color: rgb(236, 236, 236);
+    color: black;
+}
