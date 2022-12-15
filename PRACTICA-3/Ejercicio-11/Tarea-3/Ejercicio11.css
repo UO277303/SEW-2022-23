@@ -1,0 +1,21 @@
+/**********
+Héctor Lavandeira Fernández - UO277303
+Descripción del estilo de la página
+**********/
+
+/*Especificidad: (0,0,1)*/
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 59, 86);
+    background-color: white;
+}
+
+/*Especificidad: (0,0,1)*/
+input {
+    height: 1.8em;
+
+    border-radius: 1em;
+
+    color:white;
+    background-color: black;
+}

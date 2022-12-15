@@ -1,0 +1,10 @@
+/**********
+Héctor Lavandeira Fernández - UO277303
+Descripción del estilo de la página
+**********/
+
+/*Especificidad: (0,0,1)*/
+section {
+    width: 100%;
+    height: 50vw;
+}

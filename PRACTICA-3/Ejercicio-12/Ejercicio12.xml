@@ -1,0 +1,25 @@
+<?xml version= "1.0" encoding = "UTF-8" ?>
+<!DOCTYPE persona SYSTEM "redSocial.dtd">
+
+<persona nombre="Héctor" apellidos="Lavandeira Fernández">
+
+	<datos>
+		<fechaNac>2001-12-25</fechaNac>
+		<lugarNac>Ponferrada, León</lugarNac> 
+		<coordNac>
+			<latitud>-6.537778</latitud>
+			<longitud>42.534167</longitud>
+			<altitud>544</altitud>
+		</coordNac>
+		<lugarRes>Oviedo, Asturias</lugarRes>
+		<coordRes>
+			<latitud>-5.849167</latitud>
+			<longitud>43.36</longitud>
+			<altitud>232</altitud>
+		</coordRes>
+	</datos>
+	<foto>multimedia/foto/1.jpg</foto>
+	<video>multimedia/video/1.mp4</video>
+	<comentario>Comentario de Héctor Lavandeira</comentario>
+    
+</persona>

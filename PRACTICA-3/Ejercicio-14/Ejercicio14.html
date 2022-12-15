@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Héctor Lavandeira Fernández" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Reproductor de vídeos</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Ejercicio14.js"></script>
+
+    <link href="Ejercicio14.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <h1>Reproductor de vídeos</h1>
+    <form>
+        <label for="vid">Selecciona un fichero para ver su contenido:</label>
+        <p><input type="file" id="vid" onchange="rep.cargarVideo(this.files)" accept="video/mp4" /></p>
+        <label for="vidDD">O arrastra tu fichero aquí:</label>
+        <textarea id="vidDD" ondrop="rep.dropHandler(event)" ondragover="rep.dragOverHandler(event)" readonly ></textarea>
+        <p><input type="button" onclick="rep.subtitulos()" value="Activar subtítulos" /></p>
+    </form>
+
+    <section>
+        <h2>Esperando al vídeo...</h2>
+    </section>
+    
+</body>
+</html>

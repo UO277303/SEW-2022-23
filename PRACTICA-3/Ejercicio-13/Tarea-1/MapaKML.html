@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Héctor Lavandeira Fernández" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Ejercicio 13 JS - Tarea 1</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeHrSfqHSvLB0BdJk8pnlIHeZed69XrUc"></script>
+    <script src="MapaKML.js"></script>
+
+    <link href="MapaKML.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <h1>KML en Google Maps</h1>
+    <form>
+        <label for="kmlFile">Selecciona un fichero para ver su contenido:</label>
+        <p><input type="file" id="kmlFile" onchange="kml.cargarMapa(this.files)" accept=".kml" /></p>
+    </form>
+
+    <section>
+        <h2>Mapa con los puntos del KML:</h2>
+    </section>
+    
+</body>
+</html>

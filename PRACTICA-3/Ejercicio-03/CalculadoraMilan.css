@@ -1,0 +1,80 @@
+/**********
+Héctor Lavandeira Fernández - UO277303
+Descripción del estilo y layout de la calculadora básica
+**********/
+
+/*Especificidad: (0,0,1)*/
+form {
+    display: grid;
+    
+    grid-template-columns: repeat(5, 6em);
+    height: 30em;
+    column-gap: 0.7em;
+    row-gap: 0.7em;
+
+    margin-left: 1em;
+}
+
+/*Especificidad: (0,0,1)*/
+input {
+    background-color: rgb(255, 255, 176);
+    color: black;
+
+    font-size: 1.5em;
+    font-weight: bolder;
+
+    border-radius: 0.7em;
+    border: 0.05em solid black;
+}
+
+/*Especificidad: (0,0,1)*/
+h1 {
+    margin-left: 0.5em;
+}
+
+/*Especificidad: (0,0,1)*/
+label {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 1;
+
+    margin-left: 1.5em;
+}
+
+/*Especificidad: (0,1,1)*/
+input[type="text"] {
+    height: 2em;
+    padding: 0.5em;
+
+    background-color: white;
+    color: black;
+    border: 0.075em solid black;
+    font-size: 2em;
+
+    grid-column-start: 1;
+    grid-column-end: 6;
+
+    border-radius: 0.5em;
+
+    font-weight: lighter;
+}
+
+/*Especificidad: (0,1,1)*/
+input[value="+"] {
+    grid-row-start: 6;
+    grid-row-end: 8;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+/*Especificidad: (0,1,1)*/
+input[value="C"], input[value="CE"],
+input[value="+/-"], input[value="√"],
+input[value="%"], input[value="x"], 
+input[value="/"], input[value="-"],
+input[value="+"], input[value="Mrc"],
+input[value="M+"], input[value="M-"] {
+    background-color: #B7E1D8;
+    color: black;
+}

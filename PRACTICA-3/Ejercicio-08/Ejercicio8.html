@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Héctor Lavandeira Fernández" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Ejercicio 8 JS</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Ejercicio8.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="Ejercicio8.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Tiempo meteorológico</h1>
+        <form>
+            <input type="button" value="Oviedo" onclick="tiempo.cargar('Oviedo')" />
+            <input type="button" value="Barcelona" onclick="tiempo.cargar('Barcelona')" />
+            <input type="button" value="Minsk" onclick="tiempo.cargar('Minsk')" />
+            <input type="button" value="Sarajevo" onclick="tiempo.cargar('Sarajevo')" />
+            <input type="button" value="Silkeborg" onclick="tiempo.cargar('Silkeborg')" />
+        </form>
+    </header>
+
+    <main>
+        <section>
+            <h2>Datos</h2>
+        </section>
+        <aside>
+            <h2>Icono</h2>
+        </aside>
+    </main>
+</body>
+</html>

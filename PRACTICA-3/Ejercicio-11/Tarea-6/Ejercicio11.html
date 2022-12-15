@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Héctor Lavandeira Fernández" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Ejercicio 11 JS - Tarea 6</title>
+    
+    <link href="Ejercicio11.css" rel="stylesheet"/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeHrSfqHSvLB0BdJk8pnlIHeZed69XrUc&libraries=places"></script>
+    <script src="Ejercicio11.js"></script>
+</head>
+
+<body>
+    <h1>API Geolocalization - Rutas</h1>
+    <main>
+        <p><label for="destino">Introduce un destino: </label></p>
+        <input id="destino" type="text">
+        <input type="button" value="Ver ruta" onclick="mapa.initMap()" />
+        <form>
+            <fieldset>
+                <legend>Elige un medio de transporte:</legend>
+                <p><label for="mt1"> <input type=radio name="dest" id="mt1" onchange="mapa.setTransporte(1)">Coche</label></p>
+                <p><label for="mt2"> <input type=radio name="dest" id="mt2" onchange="mapa.setTransporte(2)">Bicicleta</label></p>
+                <p><label for="mt3"> <input type=radio name="dest" id="mt3" onchange="mapa.setTransporte(3)">Transporte público</label></p>
+                <p><label for="mt4"> <input type=radio name="dest" id="mt4" onchange="mapa.setTransporte(4)">A pie</label></p>
+            </fieldset>
+        </form>
+    </main>
+
+    <section>
+        <h2>Mapa:</h2>
+    </section>
+</body>
+</html>

@@ -1,0 +1,60 @@
+/**********
+Héctor Lavandeira Fernández - UO277303
+Descripción del layout de la página
+**********/
+
+/*Especificidad: (0,0,1)*/
+body {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+/*Especificidad: (0,0,1)*/
+header {
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    display: flex;
+}
+
+/*Especificidad: (0,0,1)*/
+main {
+    grid-row: 3;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+/*Especificidad: (0,0,1)*/
+footer {
+    grid-row: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+/*Especificidad: (0,0,1)*/
+aside {
+    grid-row: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Especificidad: (0,0,1)*/
+article {
+    grid-row: 5;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+/*Especificidad: (0,0,2)*/
+aside > form {
+    display: grid;
+    grid-template-columns: repeat(3, 5em);
+    column-gap: 0.5em;
+    row-gap: 0.5em;
+}

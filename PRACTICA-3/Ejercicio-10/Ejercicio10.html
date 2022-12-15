@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Héctor Lavandeira Fernández" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Ejercicio 9 JS</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Ejercicio10.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="Ejercicio10.css" />
+</head>
+
+<body>
+    <h1>Consultar precio del oro</h1>
+    <form>
+        <input type="button" value="Precio en euros" onclick="po.consultar('EUR')" />
+        <input type="button" value="Precio en dólares" onclick="po.consultar('USD')" />
+        <input type="button" value="Precio en yenes" onclick="po.consultar('JPY')" />
+        <input type="button" value="Precio en libras" onclick="po.consultar('GBP')" />
+    </form>
+</body>
+</html>

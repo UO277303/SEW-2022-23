@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Héctor Lavandeira Fernández" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Calculadora científica</title>
+
+    <script src="CalculadoraCientifica.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="CalculadoraCientifica.css" />
+</head>
+
+<body>
+
+    <h1>Calculadora científica</h1>
+
+    <form>
+        <label for="pantalla">Calculadora Windows</label>
+        <input type="text" id="pantalla" value="0" readonly />
+
+        <!--Fila 1-->
+        <input type="button" value="DEG" onclick="calc.deg()" />
+        <input type="button" value="HYP" onclick="calc.hyp()" />
+        <input type="button" value="F-E" onclick="calc.fe()" />
+        <!--Fila 2-->
+        <input type="button" value="MC" onclick="calc.mC()" />
+        <input type="button" value="MR" onclick="calc.mR()" />
+        <input type="button" value="M+" onclick="calc.mMas()" />
+        <input type="button" value="M-" onclick="calc.mMenos()" />
+        <input type="button" value="MS" onclick="calc.mS()" />
+        <!--Fila 3-->
+        <input type="button" value="^2" onclick="calc.cuadrado()" />
+        <input type="button" value="^" onclick="calc.potencia()" />
+        <input type="button" value="sin" onclick="calc.seno()" />
+        <input type="button" value="cos" onclick="calc.coseno()" />
+        <input type="button" value="tan" onclick="calc.tangente()" />
+        <!--Fila 4-->
+        <input type="button" value="√" onclick="calc.raiz()" />
+        <input type="button" value="10^x" onclick="calc.potenciaDiez()" />
+        <input type="button" value="log" onclick="calc.logaritmo()" />
+        <input type="button" value="exp" onclick="calc.exponencial()" />
+        <input type="button" value="mod" onclick="calc.modulo()" />
+        <!--Fila 5-->
+        <input type="button" value="↑" onclick="calc.shift()" />
+        <input type="button" value="CE" onclick="calc.borrar()" />
+        <input type="button" value="C" onclick="calc.borrarCalculo()" />
+        <input type="button" value="⌫" onclick="calc.borrarDigito()" />
+        <input type="button" value="/" onclick="calc.division()" />
+        <!--Fila 6-->
+        <input type="button" value="π" onclick="calc.pi()" />
+        <input type="button" value="7" onclick="calc.digitos('7')" />
+        <input type="button" value="8" onclick="calc.digitos('8')" />
+        <input type="button" value="9" onclick="calc.digitos('9')" />
+        <input type="button" value="x" onclick="calc.multiplicacion()" />
+        <!--Fila 7-->
+        <input type="button" value="n!" onclick="calc.factorial()" />
+        <input type="button" value="4" onclick="calc.digitos('4')" />
+        <input type="button" value="5" onclick="calc.digitos('5')" />
+        <input type="button" value="6" onclick="calc.digitos('6')" />
+        <input type="button" value="-" onclick="calc.resta()" />
+        <!--Fila 8-->
+        <input type="button" value="+/-" onclick="calc.cambiarSigno()" />
+        <input type="button" value="1" onclick="calc.digitos('1')" />
+        <input type="button" value="2" onclick="calc.digitos('2')" />
+        <input type="button" value="3" onclick="calc.digitos('3')" />
+        <input type="button" value="+" onclick="calc.suma()" />
+        <!--Fila 9-->
+        <input type="button" value="(" onclick="calc.parentesis('i')" />
+        <input type="button" value=")" onclick="calc.parentesis('d')" />
+        <input type="button" value="0" onclick="calc.digitos('0')" />
+        <input type="button" value="." onclick="calc.punto()" />
+        <input type="button" value="=" onclick="calc.igual()" />
+
+    </form>
+
+</body>
+</html>

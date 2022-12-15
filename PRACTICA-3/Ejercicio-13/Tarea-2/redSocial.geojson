@@ -1,0 +1,376 @@
+{
+    "type": "FeatureCollection",
+    "name": "Red Social: Coordenadas",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Nacimiento: Héctor Lavandeira Fernández",
+                "description": "Ponferrada, León"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.537778,
+                    42.534167
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Residencia: Héctor Lavandeira Fernández",
+                "description": "Oviedo, Asturias"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.849167,
+                    43.36
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Nacimiento: Ana Fernández Ostio",
+                "description": "Gijón, Asturias"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.633889,
+                    43.533889
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Residencia: Ana Fernández Ostio",
+                "description": "Mieres, Asturias"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.781667,
+                    43.248333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Nacimiento: Iker Jiménez Herrero",
+                "description": "Vitoria-Gasteiz, Álava"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.672778,
+                    42.8525
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Residencia: Iker Jiménez Herrero",
+                "description": "Madrid, Madrid"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.688889,
+                    40.424167
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Nacimiento: Fernando González Sierra",
+                "description": "Ourense, Ourense"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -7.859167,
+                    42.325833
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Residencia: Fernando González Sierra",
+                "description": "Cádiz, Cádiz"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.211111,
+                    36.520556
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Nacimiento: Miriam González Alonso",
+                "description": "Ponferrada, León"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.603889,
+                    42.5475
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Residencia: Miriam González Alonso",
+                "description": "Villablino, León"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.315278,
+                    42.936944
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Nacimiento: Sonia Fernández Coto",
+                "description": "Oviedo, Asturias"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.850833,
+                    43.364444
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Residencia: Sonia Fernández Coto",
+                "description": "Capri, Italia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.240833,
+                    40.555278
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Nacimiento: Miguel Menéndez Rodríguez",
+                "description": "Torremolinos, Málaga"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.515833,
+                    36.626389
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Residencia: Miguel Menéndez Rodríguez",
+                "description": "Benalmádena, Málaga"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.516944,
+                    36.598333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Nacimiento: Sito Martínez Rodríguez",
+                "description": "Oviedo, Asturias"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.842222,
+                    43.3625
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Residencia: Sito Martínez Rodríguez",
+                "description": "Coímbra, Portugal"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.381667,
+                    40.203056
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Nacimiento: Nuria Inchaurrandieta Fernández",
+                "description": "Burdeos, Francia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.578889,
+                    44.8375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Residencia: Nuria Inchaurrandieta Fernández",
+                "description": "Andorra la Vella, Andorra"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.521667,
+                    42.506111
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Nacimiento: Alicia Fernández Pushkina",
+                "description": "Transilvania, Rumanía"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    25.2224,
+                    46.18406
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Residencia: Alicia Fernández Pushkina",
+                "description": "Minsk, Bielorrusia"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    27.558889,
+                    53.900556
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Nacimiento: Lara Fernández Méndez",
+                "description": "Barcelona, Barcelona"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.168333,
+                    41.387222
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Residencia: Lara Fernández Méndez",
+                "description": "Soria, Soria"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.478889,
+                    41.766389
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Nacimiento: Laura Cordero Castrillo",
+                "description": "Plasencia, Cáceres"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.070278,
+                    40.038611
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Residencia: Laura Cordero Castrillo",
+                "description": "Sarajevo, Bosnia y Herzegovina"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.413056,
+                    43.856111
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Nacimiento: Sofía Yiyu Qiu",
+                "description": "Bilbao, Vizcaya"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.934722,
+                    43.262778
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Residencia: Sofía Yiyu Qiu",
+                "description": "Silkeborg, Dinamarca"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.554722,
+                    56.176111
+                ]
+            }
+        }
+    ]
+}

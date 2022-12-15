@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Héctor Lavandeira Fernández" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Ejercicio 12 JS</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Ejercicio12.js"></script>
+
+    <link href="Ejercicio12.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <h1>API File</h1>
+    <form>
+        <label for="ficheros">Selecciona los ficheros para ver sus propiedades:</label>
+        <p><input type="file" id="ficheros" onchange="arc.mostrarPropiedades(this.files)" multiple /></p>
+        <label for="ficheroCont">Selecciona un fichero para ver su contenido:</label>
+        <p><input type="file" id="ficheroCont" onchange="arc.mostrarContenido(this.files)" accept="text/plain, text/xml, application/json" /></p>
+    </form>
+
+    <section>
+        <h2>Contenido del fichero a seleccionar:</h2>
+        <p></p>
+    </section>
+    
+</body>
+</html>

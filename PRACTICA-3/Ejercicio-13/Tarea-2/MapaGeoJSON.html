@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Héctor Lavandeira Fernández" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Ejercicio 13 JS - Tarea 2</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeHrSfqHSvLB0BdJk8pnlIHeZed69XrUc"></script>
+    <script src="MapaGeoJSON.js"></script>
+
+    <link href="MapaGeoJSON.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <h1>GeoJSON en Google Maps</h1>
+    <form>
+        <label for="geojsonFile">Selecciona un fichero para ver su contenido:</label>
+        <p><input type="file" id="geojsonFile" onchange="geoj.cargarMapa(this.files)" accept=".geojson" /></p>
+    </form>
+
+    <section>
+        <h2>Mapa dinámico con los datos del GeoJSON:</h2>
+    </section>
+    
+</body>
+</html>
