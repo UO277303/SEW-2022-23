@@ -5,12 +5,13 @@
   * Comentarios:
     - Elemento <aside> contiene información directamente relacionada con el contenido.
     - Grid/flex mal aplicado.
-    - No se utiliza source en <video> ni <audio>.
+    - No se utiliza source en 'video' ni 'audio'.
     - Los elementos <input> no están cerrados explícitamente.
 
 **Entrega 2 - XML:**
-  * Nota: 
+  * Nota: 6
   * Comentarios:
+    - En el ejercicio 3 se utiliza una biblioteca en vez de recorrer el EPUB manualmente :)
 
 **Entrega 3 - JavaScript:**
   * Nota:
