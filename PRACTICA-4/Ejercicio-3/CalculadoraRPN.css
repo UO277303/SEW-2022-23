@@ -1,0 +1,77 @@
+/**********
+Héctor Lavandeira Fernández - UO277303
+Descripción del estilo y layout de la calculadora RPN
+**********/
+
+/*Especificidad: (0,0,1)*/
+form {
+    display: grid;
+    grid-template-columns: repeat(4, 6em);
+
+    height: 32em;
+    column-gap: 0.4em;
+    row-gap: 0.4em;
+
+    margin-left: 1em;
+}
+
+/*Especificidad: (0,0,1)*/
+textarea {
+    grid-column-start: 1;
+    grid-column-end: 5;
+
+    resize: none;
+
+    height: 10em;
+    font-size: 1em;
+    color: black;
+    background-color: white;
+
+    border: solid black 0.2em;
+    border-radius: 0.35em;
+}
+
+/*Especificidad: (0,0,1)*/
+label {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+
+    margin-left: 0.5em;
+}
+
+/*Especificidad: (0,0,1)*/
+button {
+    background-color: rgb(194, 237, 250);
+    color: black;
+
+    font-size: 1.2em;
+
+    border-radius: 0.5em;
+    border: solid black 0.05em;
+}
+
+/*Especificidad: (0,1,1)*/
+button[name="1"], button[name="2"],
+button[name="3"], button[name="4"],
+button[name="5"], button[name="6"],
+button[name="7"], button[name="8"],
+button[name="9"], button[name="0"] {
+    background-color: rgb(217, 233, 243);
+    color: black;
+}
+
+/*Especificidad: (0,1,1)*/
+button[name="c"], button[name="enter"] {
+    background-color: rgb(189, 255, 233);
+    color: black;
+}
+
+/*Especificidad: (0,1,1)*/
+button[name="asin"], button[name="sin"],
+button[name="acos"], button[name="cos"],
+button[name="atan"], button[name="tan"] {
+    background-color: rgb(227, 212, 255);
+    color: black;
+}

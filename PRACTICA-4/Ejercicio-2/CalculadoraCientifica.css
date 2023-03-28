@@ -1,0 +1,89 @@
+/**********
+Héctor Lavandeira Fernández - UO277303
+Descripción del estilo y layout de la calculadora científica
+**********/
+
+/*Especificidad: (0,0,1)*/
+form {
+    display: grid;
+    grid-template-columns: repeat(5, 6em);
+
+    height: 30em;
+    column-gap: 0.4em;
+    row-gap: 0.4em;
+
+    margin-left: 1em;
+}
+
+/*Especificidad: (0,0,1)*/
+input, button {
+    background-color: rgb(216, 216, 216);
+    color: black;
+
+    font-size: 1.25em;
+    border: none;
+
+    height: 2em;
+}
+
+/*Especificidad: (0,0,1)*/
+h1 {
+    margin-left: 0.5em;
+}
+
+/*Especificidad: (0,0,1)*/
+label {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 1;
+
+    margin-left: 0.5em;
+}
+
+/*Especificidad: (0,1,1)*/
+input[type="text"] {
+    height: 2em;
+    padding: 0.5em;
+
+    background-color: white;
+    color: black;
+    font-size: 2em;
+
+    border: solid black 0.05em;
+
+    text-align: right;
+
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+
+/*Especificidad: (0,1,1)*/
+button[name="fe"] {
+    grid-column-start: 3;
+    grid-column-end: 6;
+
+    width: 32.33%;
+}
+
+/*Especificidad: (0,1,1)*/
+button[name="deg"], button[name="hyp"],
+button[name="fe"], button[name="mc"],
+button[name="mr"], button[name="ms"],
+button[name="M+"], button[name="M-"] {
+    background-color: rgb(212, 212, 212);
+    color: black;
+
+    font-size: 1em;
+}
+
+/*Especificidad: (0,1,1)*/
+button[name="1"], button[name="2"],
+button[name="3"], button[name="4"],
+button[name="5"], button[name="6"],
+button[name="7"], button[name="8"],
+button[name="9"], button[name="0"],
+button[name=","] {
+    background-color: rgb(236, 236, 236);
+    color: black;
+}

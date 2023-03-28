@@ -1,0 +1,71 @@
+/**********
+Héctor Lavandeira Fernández - UO277303
+Descripción del estilo y layout de la página
+**********/
+
+/*Especificidad: (0,0,1)*/
+body {
+    background-color: #e8fffa ;
+    color: black;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Especificidad: (0,0,1)*/
+h1 {
+    margin-left: 1.2em;
+    text-align: center;
+    font-size: 3em;
+}
+
+/*Especificidad: (0,0,1)*/
+nav {
+    background-color: #333333;
+    color: white;
+    padding: 1em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/*Especificidad: (0,0,1)*/
+a {
+    padding: 1em;
+}
+
+/*Especificidad: (0,0,1)*/
+form {
+    width: 30em;
+    margin-left: 1em;
+    margin-bottom: 2em;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/*Especificidad: (0,0,2)*/
+nav a {
+    color: white;
+    background-color: #333333;
+    padding-right: 1em;
+
+    font-size: 1em;
+}
+
+/*Especificidad: (0,1,1)*/
+input[type="text"], input[type="number"] {
+    margin-bottom: 0.6em;
+    margin-top: 0.3em;
+    padding: 0.5em;
+}
+
+/*Especificidad: (0,1,1)*/
+input[type="submit"] {
+    margin-top: 2em;
+    width: 10em;
+    padding: 0.6em;
+
+    border: solid black 0.15em;
+    border-radius: 0.5em;
+}
