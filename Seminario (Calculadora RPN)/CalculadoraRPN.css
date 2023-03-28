@@ -1,0 +1,109 @@
+/**********
+Héctor Lavandeira Fernández - UO277303
+Descripción del estilo y layout de la calculadora RPN
+**********/
+
+/*Especificidad: (0,0,1)*/
+body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    column-gap: 1.25em;
+}
+
+/*Especificidad: (0,0,1)*/
+h1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+/*Especificidad: (0,0,1)*/
+form {
+    display: grid;
+    grid-template-columns: repeat(4, 6em);
+
+    height: 32em;
+    column-gap: 0.4em;
+    row-gap: 0.4em;
+
+    margin-right: 3em;
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+/*Especificidad: (0,0,1)*/
+textarea {
+    grid-column-start: 1;
+    grid-column-end: 5;
+
+    resize: none;
+
+    height: 10em;
+    font-size: 1em;
+    color: black;
+    background-color: white;
+
+    border: solid black 0.2em;
+    border-radius: 0.35em;
+}
+
+/*Especificidad: (0,0,1)*/
+label {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+
+    margin-left: 0.5em;
+}
+
+/*Especificidad: (0,0,1)*/
+input {
+    background-color: rgb(194, 237, 250);
+    color: black;
+
+    font-size: 1.2em;
+
+    border-radius: 0.5em;
+    border: solid black 0.05em;
+}
+
+/*Especificidad: (0,0,1)*/
+aside {
+    grid-column-start: 2;
+    grid-column-end: 3;
+
+    border: solid black 0.1em;
+}
+
+/*Especificidad: (0,0,2)*/
+aside p, aside h2 {
+    text-align: justify;
+    margin-left: 1em;
+    margin-right: 0.7em;
+}
+
+/*Especificidad: (0,1,1)*/
+input[value="1"], input[value="2"],
+input[value="3"], input[value="4"],
+input[value="5"], input[value="6"],
+input[value="7"], input[value="8"],
+input[value="9"], input[value="0"] {
+    background-color: rgb(217, 233, 243);
+    color: black;
+}
+
+/*Especificidad: (0,1,1)*/
+input[value="C"], input[value="Enter"] {
+    background-color: rgb(189, 255, 233);
+    color: black;
+}
+
+/*Especificidad: (0,1,1)*/
+input[value="arcsin"], input[value="sin"],
+input[value="arccos"], input[value="cos"],
+input[value="arctan"], input[value="tan"] {
+    background-color: rgb(227, 212, 255);
+    color: black;
+}

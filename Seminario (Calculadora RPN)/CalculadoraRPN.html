@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Héctor Lavandeira Fernández" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Calculadora RPN</title>
+
+    <script src="CalculadoraRPN.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="CalculadoraRPN.css" />
+</head>
+
+<body>
+
+    <h1>Calculadora RPN</h1>
+
+    <form>
+        <label for="pantalla">Calculadora RPN</label>
+        <textarea id="pantalla" disabled ></textarea>
+
+        <!--Fila 1-->
+        <input type="button" value="arcsin" onclick="calc.arcseno()" />
+        <input type="button" value="arccos" onclick="calc.arccoseno()" />
+        <input type="button" value="arctan" onclick="calc.arctangente()" />
+        <input type="button" value="C" onclick="calc.borrar()" />
+        <!--Fila 2-->
+        <input type="button" value="sin" onclick="calc.seno()" />
+        <input type="button" value="cos" onclick="calc.coseno()" />
+        <input type="button" value="tan" onclick="calc.tangente()" />
+        <input type="button" value="^" onclick="calc.potencia()" />
+        <!--Fila 3-->
+        <input type="button" value="√" onclick="calc.raiz()" />
+        <input type="button" value="10^x" onclick="calc.potenciaDiez()" />
+        <input type="button" value="log" onclick="calc.logaritmo()" />
+        <input type="button" value="mod" onclick="calc.modulo()" />
+        <!--Fila 4-->
+        <input type="button" value="7" onclick="calc.digitos('7')" />
+        <input type="button" value="8" onclick="calc.digitos('8')" />
+        <input type="button" value="9" onclick="calc.digitos('9')" />
+        <input type="button" value="*" onclick="calc.multiplicacion()" />
+        <!--Fila 5-->
+        <input type="button" value="4" onclick="calc.digitos('4')" />
+        <input type="button" value="5" onclick="calc.digitos('5')" />
+        <input type="button" value="6" onclick="calc.digitos('6')" />
+        <input type="button" value="/" onclick="calc.division()" />
+        <!--Fila 6-->
+        <input type="button" value="1" onclick="calc.digitos('1')" />
+        <input type="button" value="2" onclick="calc.digitos('2')" />
+        <input type="button" value="3" onclick="calc.digitos('3')" />
+        <input type="button" value="-" onclick="calc.resta()" />
+        <!--Fila 7-->
+        <input type="button" value="." onclick="calc.punto()" />
+        <input type="button" value="0" onclick="calc.digitos('0')" />
+        <input type="button" value="Enter" onclick="calc.enter()" />
+        <input type="button" value="+" onclick="calc.suma()" />
+
+    </form>
+
+    <aside>
+        <h2>¿Cómo funciona una calculadora RPN?</h2>
+        <p>La calculadora muestra en la pantalla una pila de valores. Para introducir un valor, es necesario pulsar
+            la tecla ENTER tras pulsar el número que se quiera utilizar en la operación.</p>
+        <p>Para calcular el resultado de una operación, el operador debe ser la última tecla en pulsarse, ya que 
+            realizará la operación con los dos últimos números de la pila.</p>
+    </aside>
+
+</body>
+</html>
